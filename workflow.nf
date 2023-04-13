@@ -9,9 +9,6 @@ config_ch = Channel
 
 config_ch.view()
 
-// Process to check if all process where successful
-
-// Process to check if all the steps were completed
 process ReadFiles {
     fair true
     cache 'lenient'
